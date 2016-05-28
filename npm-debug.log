@@ -1,0 +1,103 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.26
+3 info using node@v0.10.31
+4 verbose node symlink /usr/local/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/anwar/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/Users/anwar/.npm/up-down-pad/0.0.0/package.tgz', '.' ]
+12 verbose tarball /Users/anwar/.npm/up-down-pad/0.0.0/package.tgz
+13 verbose folder .
+14 info prepublish up-down-pad@0.0.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /Users/anwar/.npm/1f1177db-tar.lock
+17 silly lockFile e4ce2ce6-pm-up-down-pad-0-0-0-package-tgz tar:///Users/anwar/.npm/up-down-pad/0.0.0/package.tgz
+18 verbose lock tar:///Users/anwar/.npm/up-down-pad/0.0.0/package.tgz /Users/anwar/.npm/e4ce2ce6-pm-up-down-pad-0-0-0-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile e4ce2ce6-pm-up-down-pad-0-0-0-package-tgz tar:///Users/anwar/.npm/up-down-pad/0.0.0/package.tgz
+22 silly lockFile e4ce2ce6-pm-up-down-pad-0-0-0-package-tgz tar:///Users/anwar/.npm/up-down-pad/0.0.0/package.tgz
+23 silly lockFile 570f692f-ar-npm-up-down-pad-0-0-0-package /Users/anwar/.npm/up-down-pad/0.0.0/package
+24 verbose lock /Users/anwar/.npm/up-down-pad/0.0.0/package /Users/anwar/.npm/570f692f-ar-npm-up-down-pad-0-0-0-package.lock
+25 silly lockFile 570f692f-ar-npm-up-down-pad-0-0-0-package /Users/anwar/.npm/up-down-pad/0.0.0/package
+26 silly lockFile 570f692f-ar-npm-up-down-pad-0-0-0-package /Users/anwar/.npm/up-down-pad/0.0.0/package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'up-down-pad',
+29 silly publish   version: '0.0.0',
+29 silly publish   description: 'Adds a given number of newline characters to *both* before and after a given string.',
+29 silly publish   main: 'index.js',
+29 silly publish   scripts: { test: 'node test' },
+29 silly publish   repository:
+29 silly publish    { type: 'git',
+29 silly publish      url: 'https://github.com/anwaraliahmad/up-down-pad.git' },
+29 silly publish   keywords: [ 'up', 'down', 'pad', 'down-pad', 'left-pad' ],
+29 silly publish   author: { name: 'Anwar Ali-Ahmad', email: 'anwar.aliahmad@icloud.com' },
+29 silly publish   license: 'GPL 2.0',
+29 silly publish   bugs: { url: 'https://github.com/anwaraliahmad/up-down-pad/issues' },
+29 silly publish   homepage: 'https://github.com/anwaraliahmad/up-down-pad',
+29 silly publish   devDependencies: { tape: '^4.5.1' },
+29 silly publish   readme: '## up-down-pad\nAdds a given number of newline characters to *both* before and after a given string.\n\n[![NPM Version][npm-image]][npm-url]\n\n## Install\n\n```bash\n$ npm install up-pad\n```\n\n## Usage\n\n```js\nupDownPad = require(\'up-down-pad\')\n\nupDownPad(\'foo\', 5)// => "\\n\\n\\n\\n\\nfoo\\n\\n\\n\\n\\n"\n\nupPad(\'foobar\', 6) // => "\\n\\n\\n\\n\\n\\nfoobar\\n\\n\\n\\n\\n\\n"\n\nupPad(1, 2) // => "\\n\\n1\\n\\n"\n\nupPad(20, -1) // => "20"\n```\n\n[npm-image]: https://img.shields.io/npm/v/up-pad.svg\n[npm-url]: https://npmjs.org/package/up-down-pad\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   gitHead: '6eb0ccc4c533eb51228a0e29ea6f35000d6d3eb1',
+29 silly publish   _id: 'up-down-pad@0.0.0',
+29 silly publish   _shasum: '9d39d7a92f70b75746c9f121cbe63ddced0e6770',
+29 silly publish   _from: '.' }
+30 verbose request where is /up-down-pad
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id 1240d7961e3969a7
+33 verbose url raw /up-down-pad
+34 verbose url resolving [ 'https://registry.npmjs.org/', './up-down-pad' ]
+35 verbose url resolved https://registry.npmjs.org/up-down-pad
+36 verbose request where is https://registry.npmjs.org/up-down-pad
+37 info trying registry request attempt 1 at 11:43:09
+38 http PUT https://registry.npmjs.org/up-down-pad
+39 http 403 https://registry.npmjs.org/up-down-pad
+40 verbose headers { 'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=300',
+40 verbose headers   'content-length': '95',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   date: 'Sat, 28 May 2016 18:43:09 GMT',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1464460989.170259,VS0,VE259',
+40 verbose headers   vary: 'Accept-Encoding' }
+41 error publish Failed PUT 403
+42 error Error: "You cannot publish over the previously published version 0.0.0." : up-down-pad
+42 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+42 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+42 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:943:16
+42 error     at process._tickCallback (node.js:419:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Darwin 15.0.0
+45 error command "node" "/usr/local/bin/npm" "publish"
+46 error cwd /Users/anwar/Documents/scratch/up-down-pad
+47 error node -v v0.10.31
+48 error npm -v 1.4.26
+49 verbose exit [ 1, true ]
