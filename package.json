@@ -1,0 +1,29 @@
+{
+  "name": "up-down-pad",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anwaraliahmad/up-down-pad.git"
+  },
+  "keywords": [
+    "up",
+    "down",
+    "pad",
+    "down-pad",
+    "left-pad"
+  ],
+  "author": "Anwar Ali-Ahmad <anwar.aliahmad@icloud.com>",
+  "license": "GPL 2.0",
+  "bugs": {
+    "url": "https://github.com/anwaraliahmad/up-down-pad/issues"
+  },
+  "homepage": "https://github.com/anwaraliahmad/up-down-pad",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
