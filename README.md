@@ -6,7 +6,7 @@ Adds a given number of newline characters to *both* before and after a given str
 ## Install
 
 ```bash
-$ npm install up-pad
+$ npm install up-down-pad
 ```
 
 ## Usage

@@ -11,9 +11,9 @@ function upDownPad (str, len) {
   var pad = '';
   while (true) {
     if (len & 1) pad += ch;
-    len >>= 1;
+    len >>= 1;//muh bitwise operators
     if (len) ch += ch;
     else break;
   }
-  return pad + str + pad; 
+  return pad + str + pad;
 }
